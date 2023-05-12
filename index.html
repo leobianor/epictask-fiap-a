@@ -51,7 +51,7 @@
                 <li><a class="dropdown-item" href="#">Pendentes</a></li>
                 <li><a class="dropdown-item" href="#">Concluidas</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar</a></li>
               </ul>
             </li>
           </ul>
@@ -61,6 +61,7 @@
               type="search"
               placeholder="Buscar"
               aria-label="Buscar"
+              id = "busca"
             />
             <button class="btn btn-outline-success" type="submit">
               Buscar
@@ -76,7 +77,7 @@
             Cadastrar Tarefa
         </button>
 
-        <div class="row mt-3 ">
+        <div class="row mt-3 " id="tarefas">
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card"> 
                     <div class="card-header">Estudar para CP</div> 
@@ -94,118 +95,9 @@
                     </div> <!-- fechamento do corpo do card 1-->
                 </div> <!-- fechamento do card 1-->
             </div> <!-- fechamento coluna card 1-->
-    
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 2-->
-            </div> <!-- fechamento do card 2-->
-        </div> <!-- fechamento coluna card 2-->
-        
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 3-->
-            </div> <!-- fechamento do card 3-->
-        </div> <!-- fechamento coluna card 3-->
-
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 4-->
-            </div> <!-- fechamento do card 4-->
-        </div> <!-- fechamento coluna card 4-->
-
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 5-->
-            </div> <!-- fechamento do card 5-->
-        </div> <!-- fechamento coluna card 5-->
 
 
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 6-->
-            </div> <!-- fechamento do card 6-->
-        </div> <!-- fechamento coluna card 6-->
-
-        <div class="col-lg-3 col-md-6 col-12">
-            <div class="card"> 
-                <div class="card-header">Estudar para CP</div> 
-                <div class="card-body"> 
-                    <p class="card-text"> Fazer os exercicios para estudar </p> 
-                    <p>
-                        <span class="badge text-bg-danger">Estudos</span>
-                    </p>
-                    <a href="#" class="btn btn-success" title = "Marcar como concluida">
-                        <i class="bi bi-check2-square"></i>
-                    </a> 
-                    <a href="#" class="btn btn-danger" title = "Apagar tarefa">
-                        <i class="bi bi-trash3"></i>
-                    </a> 
-                </div> <!-- fechamento do corpo do card 7-->
-            </div> <!-- fechamento do card 7-->
-        </div> <!-- fechamento coluna card 7-->
-
-
-
+            
         </div>
     </div> <!-- fechamento do contanier-->
 
@@ -234,11 +126,11 @@
                   <input type="text" class="form-control" id="descricao">
                 </div>
                 <div class="mb-3">
-                    <select class="form-select" aria-label="Categoria">
+                    <select class="form-select" aria-label="Categoria" id="categoria">
                         <option selected>Selecione uma categoria</option>
-                        <option value="1">Estudos</option>
-                        <option value="2">Trabalho</option>
-                        <option value="3">Pessoal</option>
+                        <option>Estudos</option>
+                        <option>Trabalho</option>
+                        <option>Pessoal</option>
                       </select>
                 </div>
               </form>
@@ -246,7 +138,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-primary">Salvar</button>
+          <button id="salvar" type="button" class="btn btn-primary">Salvar</button>
         </div>
       </div>
     </div>
@@ -257,5 +149,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="./crud.js"></script>
   </body>
 </html>
